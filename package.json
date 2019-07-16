@@ -1,6 +1,6 @@
 {
   "name": "@posdim/data-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "license": "ISC",
   "contributors": [
@@ -23,13 +23,13 @@
     "release:minor": "npm run release -- --release-as minor",
     "release:patch": "npm run release -- --release-as patch"
   },
-  "homepage": "https://github.com/posdim/node-types#readme",
+  "homepage": "https://github.com/posdim/node-data-store#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posdim/node-types.git"
+    "url": "git+https://github.com/posdim/node-data-store.git"
   },
   "bugs": {
-    "url": "https://github.com/posdim/node-types/issues"
+    "url": "https://github.com/posdim/node-data-store/issues"
   },
   "devDependencies": {
     "@posdim/eslint-config": "^1.0.0",
