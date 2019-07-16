@@ -1,0 +1,45 @@
+{
+  "name": "@posdim/data-store",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Zulfikar Adnan",
+      "email": "zulfikar.adn@gmail.com",
+      "url": "https://github.com/zulfikaradnan"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js lib/",
+    "lint:fix": "eslint --ext .js lib/ --fix",
+    "precommit": "npm run lint",
+    "test": "npm run lint",
+    "preversion": "echo \"Use npm run release instead\" && exit 1",
+    "release": "npm test && standard-version",
+    "release:beta": "npm run release -- --prerelease beta",
+    "release:major": "npm run release -- --release-as major",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:patch": "npm run release -- --release-as patch"
+  },
+  "homepage": "https://github.com/posdim/node-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posdim/node-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posdim/node-types/issues"
+  },
+  "devDependencies": {
+    "@posdim/eslint-config": "^1.0.0",
+    "eslint": "^5.16.0",
+    "standard-version": "^5.0.2"
+  },
+  "eslintConfig": {
+    "extends": "@posdim/eslint-config"
+  },
+  "dependencies": {
+    "@posdim/types": "^1.0.0"
+  }
+}
