@@ -34,7 +34,7 @@
   "devDependencies": {
     "@posdim/eslint-config": "^1.0.0",
     "eslint": "^5.16.0",
-    "standard-version": "^5.0.2"
+    "standard-version": "^8.0.1"
   },
   "eslintConfig": {
     "extends": "@posdim/eslint-config"
